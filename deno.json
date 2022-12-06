@@ -1,0 +1,14 @@
+{
+  "fmt": {
+    "options": {
+      "useTabs": true,
+      "lineWidth": 70,
+      "singleQuote": true
+    }
+  },
+  "tasks": {
+    "fix": "deno fmt && deno lint",
+    "run": "deno run --allow-read mod.ts",
+    "install-deno": "curl -fsSL https://deno.land/x/install/install.sh | sh"
+  }
+}
